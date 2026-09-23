@@ -19,7 +19,7 @@ const EightPuzzlePage = () => {
     setIsPlaying(false);
     setStepIndex(0);
     try {
-      const res = await axios.get(`http://localhost:8000/eight-puzzle?difficulty=${difficulty}`);
+      const res = await axios.get(`/api/eight-puzzle?difficulty=${difficulty}`);
       setInitialState(res.data.initial_state);
       setCurrentState(res.data.initial_state);
       setSolutionSteps(res.data.solution_steps);

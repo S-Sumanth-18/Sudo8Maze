@@ -18,7 +18,7 @@ const MazePage = () => {
     setHasWon(false);
     setPlayerPosition([0, 0]);
     try {
-      const res = await axios.get(`http://localhost:8000/maze?size=${size}`);
+      const res = await axios.get(`/api/maze?size=${size}`);
       setMazeData(res.data);
     } catch (err) {
       console.error(err);

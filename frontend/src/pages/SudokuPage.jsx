@@ -16,7 +16,7 @@ const SudokuPage = () => {
     setShowSolution(false);
     setSelectedCell(null);
     try {
-      const res = await axios.get(`http://localhost:8000/sudoku?difficulty=${difficulty}`);
+      const res = await axios.get(`/api/sudoku?difficulty=${difficulty}`);
       setOriginalBoard(res.data.puzzle);
       // Deep copy the original board for the user to play on
       setUserBoard(JSON.parse(JSON.stringify(res.data.puzzle)));

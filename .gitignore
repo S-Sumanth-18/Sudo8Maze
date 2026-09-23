@@ -1,6 +1,11 @@
-# Environments
+# Environment variables and local Vercel configuration
 .env
-.venv
+.env.*
+!.env.example
+.vercel/
+
+# Environments
+.venv/
 env/
 venv/
 ENV/

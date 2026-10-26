@@ -8,6 +8,10 @@
 
 A modern, full-stack visualizer and interactive playground demonstrating classic **Artificial Intelligence search algorithms** and **heuristics** across three beloved puzzle domains: **Maze Generation & Solving**, **Sudoku**, and the **8-Puzzle**.
 
+## 🌐 Live Demo
+
+Try the application here: [https://sudo8-maze.vercel.app/](https://sudo8-maze.vercel.app/)
+
 ---
 
 ## 📸 Overview & Features
